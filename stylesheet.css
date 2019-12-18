@@ -147,6 +147,8 @@ header {
 }
 footer{
   height:100px;
+  padding-top:30px;
+  padding-bottom:20px;
 }
 .footer-left{
   float:left;
