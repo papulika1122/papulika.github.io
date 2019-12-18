@@ -21,7 +21,7 @@ a {
 }
 header {
   width:100%;
-  height:100px;
+  height:65px;
   position:fixed;
   top:0;
   z-index:10;
@@ -31,7 +31,8 @@ header {
   float:left;
 }
 .header-left .logo {
-  padding:30px 15px;
+  margin-top:20px;
+  width:124px;
 }
 .manu-icon{
   color: white;
@@ -42,16 +43,16 @@ header {
 }
 .header-right {
   float:right;
-  margin-right:-30px;
+  margin-right:-25px;
   background-color:rgba(255,255,255,0.3);
-  transition:all 0.5s;
 }
 .header-right a {
   color:#fff;
   display:block;
   float:left;
-  padding:0 30px;
-  line-height:100px;
+  padding:0 25px;
+  line-height:65px;
+  transition:all 0.5s;
 }
 .header-right a:hover{
   background-color: rgba(255, 255, 255, 0.5);
@@ -61,22 +62,28 @@ header {
   background-image:url(https://prog-8.com/images/html/advanced/top.png);
   text-align:center;
   background-size:cover;
-  padding:200px 0 100px 0;
+  padding:180px 0 100px 0;
 }
 .top-wrapper h1 {
   font-size:45px;
-  opacity:0.8;
+  opacity:0.7;
 }
 .top-wrapper p {
-  opacity:0.8;
+  opacity:0.7;
 }
 .btn-wrapper {
-  padding:30px 0;
+  margin:20px 0;
+  text-align:center;
+}
+.btn-wrapper p{
+  margin:10px 0;
 }
 .btn {
   color:#fff;
   opacity:0.8;
-  padding:8px 20px;
+  text-align:center;
+  display:inline-block;
+  padding:8px 24px;
 }
 .btn:hover{
   opacity:1;
@@ -86,25 +93,25 @@ header {
 }
 .facebook {
   background-color:#3b5998;
-  margin-right:15px;
+  margin-right:10px;
 }
 .twitter {
   background-color:#55acee;
 }
 .fab {
-  padding:5px;
+  margin-right:5px;
 }
 .lesson-wrapper {
-  height:600px;
   padding-left:5%;
   padding-right:5%;
   text-align:center;
-  padding-top:80px;
+  padding-bottom:80px;
   background-color:#f7f7f7;
 }
 .lesson-wrapper h2 {
   font-weight:normal;
-  padding-bottom:50px;
+  margin-top:80px;
+  margin-bottom:50px;
 }
 .lesson{
   float:left;
@@ -115,18 +122,20 @@ header {
 }
 .lesson-icon p{
   position:absolute;
-  top:65px;
+  top:44%;
   width:100%;
   color:#fff;
 }
 .lesson-explanation{
   color:#b3aeb5;
   width:80%;
+  font-size:13px;
+  margin-top:15px;
   display:inline-block;
 }
 .bottom-wrapper{
   text-align:center;
-  padding:80px 0;
+  padding-bottom:80px;
 }
 .bottom-wrapper h2{
   font-weight:normal;
@@ -135,7 +144,7 @@ header {
   background-color:#5dca88;
   cursor:pointer;
   box-shadow:0 7px #1a7940;
-  display:inline-block;
+  padding:15px 40px;
 }
 .creative:hover{
   opacity:1;
@@ -146,10 +155,12 @@ header {
   top:7px;
 }
 footer{
-  height:100px;
   padding-top:30px;
   padding-bottom:20px;
 }
-.footer-left{
-  float:left;
+footer p{
+  font-size:12px;
+}
+footer img{
+  width:125px;
 }
