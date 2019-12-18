@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+.clear{
+  clear:left;
+}
+.container {
+  width:100%;
+  max-width: 1170px;
+  margin:0 auto;
+  padding:0 15px;
+}
+header {
+  width:100%;
+  height:100px;
+  position:fixed;
+  top:0;
+  z-index:10;
+  background-color:rgba(34, 49, 52, 0.9);
+}
+.header-left{
+  float:left;
+}
+.header-left .logo {
+  padding:30px 15px;
+}
+.manu-icon{
+  display:none;
+}
+.header-right {
+  float:right;
+  margin-right:-30px;
+  background-color:rgba(255,255,255,0.3);
+  transition:all 0.5s;
+}
+.header-right a {
+  color:#fff;
+  display:block;
+  float:left;
+  padding:0 30px;
+  line-height:100px;
+}
+.header-right a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.top-wrapper {
+  color:#fff;
+  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  text-align:center;
+  background-size:cover;
+  padding:200px 0 100px 0;
+}
+.top-wrapper h1 {
+  font-size:45px;
+  opacity:0.8;
+}
+.top-wrapper p {
+  opacity:0.8;
+}
+.btn-wrapper {
+  padding:30px 0;
+}
+.btn {
+  color:#fff;
+  opacity:0.8;
+  padding:8px 20px;
+}
+.btn:hover{
+  opacity:1;
+}
+.signin {
+  background-color:#239b76;
+}
+.facebook {
+  background-color:#3b5998;
+  margin-right:15px;
+}
+.twitter {
+  background-color:#55acee;
+}
+.fab {
+  padding:5px;
+}
+.lesson-wrapper {
+  height:600px;
+  text-align:center;
+  padding-top:80px;
+  background-color:#f7f7f7;
+}
+.lesson-wrapper h2 {
+  font-weight:normal;
+  padding-bottom:50px;
+}
+.lesson{
+  float:left;
+  width:25%;
+}
+.lesson-icon{
+  position:relative;
+}
+.lesson-icon p{
+  position:absolute;
+  top:65px;
+  width:100%;
+  color:#fff;
+}
+.lesson-explanation{
+  color:#b3aeb5;
+  width:80%;
+  display:inline-block;
+}
+.bottom-wrapper{
+  text-align:center;
+  padding:80px 0;
+}
+.bottom-wrapper h2{
+  font-weight:normal;
+}
+.creative{
+  background-color:#5dca88;
+  cursor:pointer;
+  box-shadow:0 7px #1a7940;
+  display:inline-block;
+}
+.creative:hover{
+  opacity:1;
+}
+.creative:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+footer{
+  height:100px;
+}
+.footer-left{
+  float:left;
+}
