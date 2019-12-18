@@ -1,4 +1,4 @@
-@media all and (max-width:800px){
+@media all and (max-width:1000px){
   .top-wrapper h1{
     font-size:30px;
   }
@@ -14,11 +14,11 @@
   }
 }
 
-@media all and (max-width:500px){
+@media all and (max-width:670px){
   .header-right{
     display:none;
   }
-  .manu-icon{
+  .fa.manu-icon{
     display:block !important;
   }
   .top-wrapper{
