@@ -34,6 +34,10 @@ header {
   padding:30px 15px;
 }
 .manu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
   display:none;
 }
 .header-right {
@@ -92,6 +96,8 @@ header {
 }
 .lesson-wrapper {
   height:600px;
+  padding-left:5%;
+  padding-right:5%;
   text-align:center;
   padding-top:80px;
   background-color:#f7f7f7;
