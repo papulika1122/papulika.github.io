@@ -19,7 +19,7 @@
     display:none;
   }
   .manu-icon{
-    display:block;
+    display:block !important;
   }
   .top-wrapper{
     text-align:left;
